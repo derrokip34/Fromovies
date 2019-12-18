@@ -6,6 +6,10 @@ $(document).ready(function() {
     $.each(movieName, function(val, text) {
         $("#movie-slct").append($("<option></option>").val(val).html(text))
     })
+    $("#tv-slct").empty()
+    $.each(showName, function(val, text) {
+        $("#tv-slct").append($("<option></option>").val(val).html(text))
+    })
     $("#movie-review").click(function() {
       $(".review1").fadeIn()
     })
