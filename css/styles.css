@@ -23,3 +23,9 @@ li.link a {
   
 li.link a:hover {
     background-color: #111;
+}
+h1 {
+    color: blue;
+    font-style: italic;
+    font-family: Lakki Reddy;
+}
