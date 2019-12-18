@@ -16,7 +16,16 @@ $(document).ready(function() {
     $("#tv-review").click(function() {
       $(".review2").fadeIn()
     })
+  })
+  $(document).ready(function() {
     $("#submit").click(function() {
-      alert(name + "Thank you. We have received your review")
+        var name = $("#username").val()
+
+      alert(name + ". Thank you. We have received your review")
+    })
+    $("#submit-tv").click(function() {
+        var name = $("#username").val()
+
+        alert(name + " ," + "thank you for your review")
     })
   })
