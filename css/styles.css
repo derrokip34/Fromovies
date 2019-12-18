@@ -73,3 +73,10 @@ h2 {
 .intro, .trailer {
     color: white;
 }
+#trailers {
+    text-align: center;
+}
+.tv {
+    width: 500px;
+    height: 250px;
+}
