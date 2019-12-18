@@ -6,6 +6,6 @@ $(document).ready(function() {
       $(".review2").fadeIn()
     })
     $("#submit").click(function() {
-      alert(user + "Thank you. We have received your review")
+      alert("Thank you. We have received your review")
     })
   })
