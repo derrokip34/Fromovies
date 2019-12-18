@@ -1,3 +1,6 @@
+var movieName = ["Black Panther", "Sarafina", "The Lion King(2019)", "Queen of Katwe", "Sarafina", "12 Years a Slave", "Cairotime", "Sahara", "Hyenas", "Out of Africa", "African Cats", "Congo"]
+var showName = ["Shuga", "Rhythm City", "Tinsel", "The Queen"]
+
 $(document).ready(function() {
     $("#movie-review").click(function() {
       $(".review1").fadeIn()
