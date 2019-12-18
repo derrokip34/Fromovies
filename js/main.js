@@ -20,19 +20,27 @@ $(document).ready(function() {
   $(document).ready(function() {
     $("#submit").click(function() {
         var name = $("#username").val()
+        var review = $("#usereview").val()
 
     if(name === "") {
-        alert("Enter your username")
+        alert("Enter your name")
+    }
+    else if(review === "") {
+        alert("Please share your thoughts on the movie")
     }
     else{
         alert(name + ". Thank you. We have received your review")
     }
     })
     $("#submit-tv").click(function() {
-        var name = $("#username").val()
+        var name = $("#user-name").val()
+        var review = $("#user-review").val()
 
     if(name === "") {
-        alert("Enter your username")
+        alert("Enter your name")
+    }
+    else if(review === "") {
+        alert("Please share your thoughts on the show")
     }
     else{
         alert(name + ". Thank you. We have received your review")
