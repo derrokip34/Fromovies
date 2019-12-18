@@ -2,6 +2,10 @@ var movieName = ["Black Panther", "Sarafina", "The Lion King(2019)", "Queen of K
 var showName = ["Shuga", "Rhythm City", "Tinsel", "The Queen"]
 
 $(document).ready(function() {
+    $("#movie-slct").empty()
+    $.each(movieName, function(val, text) {
+        $("#movie-slct").append($("<option></option>").val(val).html(text))
+    })
     $("#movie-review").click(function() {
       $(".review1").fadeIn()
     })
