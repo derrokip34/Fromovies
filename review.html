@@ -30,7 +30,7 @@
                         <li><a href="https://en.wikipedia.org/wiki/12_Years_a_Slave_(film)">12 Years a Slave</a></li>
                     </ul>
                 </div>
-                <button id="tv-review">Review tv show</button>
+                <button id="movie-review">Review movie</button>
             </div>
             <div class="col-md-6">
                 <div class="tv-shows">
@@ -39,7 +39,7 @@
                         <li><a href="https://en.wikipedia.org/wiki/Shuga_(TV_series)">Shuga</a></li>
                         <li><a href="https://en.wikipedia.org/wiki/Rhythm_City_(TV_series)">Rhythm City</a></li>
                     </ul><br><br><br><br><br>
-                    <button id="tv-review">Review tv show</button>
+                    <button id="tv-review">Review tv show</button><br><br>
                 </div>
             </div>
         </div>
@@ -49,6 +49,9 @@
                     <div class="row">
                             <div class="col-md-5">
                                 <div class="form">
+                                    <select id="movie-slct">
+                                        <option>Choose movie to review</option>
+                                    </select>
                                     <input type="text" placeholder="Enter username" id="username"><br><br>
                                     <textarea placeholder="What did you think about the movie ?" cols="65" rows="15"></textarea>
                                     <button id="submit">Submit</button>
@@ -60,6 +63,9 @@
                 <div class="col-md-6">
                     <div class="review2">
                         <div class="form">
+                            <select id="tv-slct">
+                                <option>Choose tv show to review</option>
+                            </select><br>
                             <input type="text" placeholder="Enter username" id="username"><br><br>
                             <textarea placeholder="What did you think of the tv show ?" cols="65" rows="15"></textarea>
                             <button id="submit">Submit</button>
