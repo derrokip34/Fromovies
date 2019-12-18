@@ -29,3 +29,8 @@ h1 {
     font-style: italic;
     font-family: Lakki Reddy;
 }
+footer {
+    text-align: center;
+    background-color: black;
+    margin: 100px;
+}
