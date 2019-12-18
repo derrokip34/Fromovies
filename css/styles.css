@@ -45,10 +45,10 @@ footer {
     height: 40px;
     width: 40px;
 }
-.images-tv .imageHolder {
+.images-tv, .imageHolder {
     display: none;
 }
-#movie-review,li.tv-review{
+#movie-review, li.tv-review{
     cursor: pointer;
     color: black;
 }
