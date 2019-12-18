@@ -11,10 +11,10 @@ $(document).ready(function() {
         $("#tv-slct").append($("<option></option>").val(val).html(text))
     })
     $("#movie-review").click(function() {
-      $(".review1").fadeIn()
+      $(".review1").slideDown()
     })
     $("#tv-review").click(function() {
-      $(".review2").fadeIn()
+      $(".review2").slideDown()
     })
   })
   $(document).ready(function() {
