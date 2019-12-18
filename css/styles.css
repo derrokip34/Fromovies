@@ -70,6 +70,6 @@ h2 {
 .fa:hover {
     color: darkblue;
 }
-.intro {
+.intro, .trailer {
     color: white;
 }
