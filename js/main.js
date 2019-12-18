@@ -21,11 +21,21 @@ $(document).ready(function() {
     $("#submit").click(function() {
         var name = $("#username").val()
 
-      alert(name + ". Thank you. We have received your review")
+    if(name === "") {
+        alert("Enter your username")
+    }
+    else{
+        alert(name + ". Thank you. We have received your review")
+    }
     })
     $("#submit-tv").click(function() {
         var name = $("#username").val()
 
-        alert(name + " ," + "thank you for your review")
+    if(name === "") {
+        alert("Enter your username")
+    }
+    else{
+        alert(name + ". Thank you. We have received your review")
+    }
     })
   })
