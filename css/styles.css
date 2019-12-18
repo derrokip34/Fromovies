@@ -55,3 +55,6 @@ li.movie-review,li.tv-review{
 li.movie-review:hover, li.tv-review:hover{
     color: blue;
 }
+.review1, .review2 {
+    display: none;
+}
