@@ -1,8 +1,8 @@
 $(document).ready(function() {
-    $("li.movie-review").click(function() {
+    $("#movie-review").click(function() {
       $(".review1").fadeIn()
     })
-    $("li.tv-review").click(function() {
+    $("#tv-review").click(function() {
       $(".review2").fadeIn()
     })
     $("#submit").click(function() {
