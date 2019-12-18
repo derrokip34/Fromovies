@@ -58,3 +58,6 @@ li.movie-review:hover, li.tv-review:hover{
 .review1, .review2 {
     display: none;
 }
+h2 {
+    color: cornsilk;
+}
