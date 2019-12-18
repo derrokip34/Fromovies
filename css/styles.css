@@ -33,6 +33,7 @@ footer {
     text-align: center;
     background-color: black;
     margin: 100px;
+    color: goldenrod;
 }
 .tv-movies {
     margin: 20px;
@@ -48,11 +49,11 @@ footer {
 .images-tv .imageHolder {
     display: none;
 }
-li.movie-review,li.tv-review{
+#movie-review,li.tv-review{
     cursor: pointer;
-    color: burlywood;
+    color: black;
 }
-li.movie-review:hover, li.tv-review:hover{
+#movie-review:hover, li.tv-review:hover{
     color: blue;
 }
 .review1, .review2 {
