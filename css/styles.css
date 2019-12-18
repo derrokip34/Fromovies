@@ -80,3 +80,7 @@ h2 {
     width: 500px;
     height: 250px;
 }
+.movies, .tv-shows {
+    width: auto;
+    background-color: goldenrod;
+}
