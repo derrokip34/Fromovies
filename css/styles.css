@@ -37,7 +37,7 @@ footer {
 .tv-movies {
     margin: 20px;
     padding: 20px;
-    background-image:url('images/back.jpg') ;
+    background-image:url('../images/back.jpg') ;
     height: 350px;
     text-align: center;
 }
