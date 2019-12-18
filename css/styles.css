@@ -48,3 +48,10 @@ footer {
 .images-tv .imageHolder {
     display: none;
 }
+li.movie-review,li.tv-review{
+    cursor: pointer;
+    color: burlywood;
+}
+li.movie-review:hover, li.tv-review:hover{
+    color: blue;
+}
