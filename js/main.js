@@ -21,30 +21,31 @@ $(document).ready(function() {
     $("#submit").click(function() {
         var name = $("#username").val()
         var review = $("#usereview").val()
-        var movieVal = $("#movie-slct option:selected").text()
+        var movieValue = $("#movie-slct option:selected").text()
 
     if(name === "") {
         alert("Enter your name")
     }
     else if(review === "") {
-        alert("Please share your thoughts on the movie")
+        alert("Please share your thoughts " + movieValue)
     }
     else{
-        alert(name + ". Thank you for sharing your thoughts on " + movieVal + ".")
+        alert(name + ". Thank you for sharing your thoughts on " + movieValue + ".")
     }
     })
     $("#submit-tv").click(function() {
         var name = $("#user-name").val()
         var review = $("#user-review").val()
+        var tvValue = $("#tv-slct option:selected").text()
 
     if(name === "") {
         alert("Enter your name")
     }
     else if(review === "") {
-        alert("Please share your thoughts on the show")
+        alert("Please share your thoughts on " + tvValue)
     }
     else{
-        alert(name + ". Thank you. We have received your review")
+        alert(name + ". Thank you for sharing your thoughts on " + tvValue + ".")
     }
     })
   })
