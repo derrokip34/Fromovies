@@ -21,6 +21,7 @@ $(document).ready(function() {
     $("#submit").click(function() {
         var name = $("#username").val()
         var review = $("#usereview").val()
+        var movieVal = $("#movie-slct option:selected").text()
 
     if(name === "") {
         alert("Enter your name")
@@ -29,7 +30,7 @@ $(document).ready(function() {
         alert("Please share your thoughts on the movie")
     }
     else{
-        alert(name + ". Thank you. We have received your review")
+        alert(name + ". Thank you for sharing your thoughts on " + movieVal + ".")
     }
     })
     $("#submit-tv").click(function() {
