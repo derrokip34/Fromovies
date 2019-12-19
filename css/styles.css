@@ -81,5 +81,5 @@ h2 {
 }
 .movies, .tv-shows {
     width: auto;
-    background-color: goldenrod;
+    background-image: url('../images/back.jpg');
 }
