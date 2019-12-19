@@ -83,3 +83,6 @@ h2 {
     width: auto;
     background-image: url('../images/back.jpg');
 }
+h2.movie-head, h2.tv-head {
+    color: black;
+}
