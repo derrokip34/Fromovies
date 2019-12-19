@@ -21,6 +21,7 @@ $(document).ready(function() {
     $("#submit").click(function() {
         var name = $("#username").val()
         var review = $("#usereview").val()
+        var message = $("#msg").val()
         var movieValue = $("#movie-slct option:selected").text()
 
     if(name === "") {
@@ -32,10 +33,12 @@ $(document).ready(function() {
     else{
         alert(name + ". Thank you for sharing your thoughts on " + movieValue + ".")
     }
+    $("#reviews").append("<li>" + name + ": " + message + "(" +movieValue + ")" + "</li>")
     })
     $("#submit-tv").click(function() {
         var name = $("#user-name").val()
         var review = $("#user-review").val()
+        var msg = $("#msg").val()
         var tvValue = $("#tv-slct option:selected").text()
 
     if(name === "") {
@@ -47,5 +50,6 @@ $(document).ready(function() {
     else{
         alert(name + ". Thank you for sharing your thoughts on " + tvValue + ".")
     }
+    $("#reviews-tv").append("<li>" + name + ": " + msg + "(" + tvValue + ")" + "</li>")
     })
   })

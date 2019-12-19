@@ -85,3 +85,9 @@ h2 {
 h2.movie-head, h2.tv-head {
     color: black;
 }
+ul#reviews, ul#reviews-tv {
+    width: 50%;
+    height: auto;
+    color: black;
+    background-image: url('../images/back.jpg');
+}
