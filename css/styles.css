@@ -82,7 +82,7 @@ h2 {
     width: 500px;
     height: 250px;
 }
-.movies, .tv-shows {
+.movies1, .tv-shows1 {
     width: auto;
     background-image: url('../images/back.jpg');
 }
