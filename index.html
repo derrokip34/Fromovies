@@ -10,18 +10,17 @@
     <header>
             <div class="navbar">
                 <h1 class="title">FROMOVIES</h1>
-                <li class="link"><a href="file:///home/derrick34/Documents/Fromovies/index.html">HOME</a></li>
-                <li class="link"><a href="file:///home/derrick34/Documents/Fromovies/movies.html">MOVIES GALLERY</a></li>
-                <li class="link"><a href="file:///home/derrick34/Documents/Fromovies/tv%20shows.html">TV SHOWS GALLERY</a></li>
-                <li class="link"><a href="file:///home/derrick34/Documents/Fromovies/review.html">REVIEW</a></li>
-                <li class="link"><a href="#contact">CONTACT INFORMATION</a></li>
+                <li id="home">HOME</li>
+                <li id="movies">MOVIES GALLERY</li>
+                <li id="tv">TV SHOWS GALLERY</li>
+                <li id="review">REVIEW</li>
+                <li><a href="#contact">CONTACT INFORMATION</a></li>
             </div><br><br>
         </header>
-        <div class="intro">
+        <div class="home">
             <p>Fromovies is a review website mainly for African movies and tv shows</p>
             <p>You can navigate to the review page by clicking review on the navigation bar</p>
             <p>THIS IS THE HOME OF AFRICAN CINEMA</p>
-        </div>
         <div class="tv-movies">
                 <div class="row">
                     <div class="col-md-6">
@@ -47,8 +46,7 @@
                                 </div>
                         </div>
                 </div>
-            </div>
-            </div><br><br><br>
+            </div><br><br>
             <div class="trailer">
                 <h2 id="trailers">UPCOMING TRAILERS</h2>
                 <div class="row">
@@ -74,8 +72,162 @@
                         </a>
                     </div>
                 </div>
-            </div><br><br><br><br><br><br><br><br><br><br>
-            <footer>
+            </div>
+        </div><br><br><br><br>
+        <div class="movies">
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="movies/drama/hyena.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img src="movies/drama/cairo.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img src="movies/drama/sarafina.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img src="movies/drama/cityl.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img src="movies/pic1.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img src="movies/pic2.jpg">
+                </div>
+            </div><br><br>
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="movies/pic3.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img src="movies/pic4.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img src="movies/pic5.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img src="movies/pic6.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img src="movies/pic7.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img src="movies/pic8.jpg">
+                </div>
+            </div>
+        </div><br><br><br><br><br>
+        <div class="tv-shows">
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="tv/tv1.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img src="tv/tv2.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img src="tv/tv3.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img src="tv/tv4.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img src="tv/tv5.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img src="tv/tv6.jpg">
+                </div>
+            </div><br><br>
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="tv/tv7.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img src="movies/pic4.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img src="movies/pic5.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img src="movies/pic6.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img src="movies/pic7.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img src="movies/pic8.jpg">
+                </div>
+            </div>
+        </div><br><br><br><br><br><br><br>
+        <div class="review">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="movies">
+                        <h2 class="movie-head">Here are some of the best movies we recommend:</h2>
+                        <ul>
+                            <li><a href="https://en.wikipedia.org/wiki/Black_Panther_(film)">Black Panther</a></li>
+                            <li><a href="https://en.wikipedia.org/wiki/Sarafina!_(film)">Sarafina</a></li>
+                            <li><a href="https://en.wikipedia.org/wiki/The_Lion_King_(2019_film)">The Lion King (2019)</a></li>
+                            <li><a href="https://en.wikipedia.org/wiki/Queen_of_Katwe">Queen of Katwe</a></li>
+                            <li><a href="https://en.wikipedia.org/wiki/12_Years_a_Slave_(film)">12 Years a Slave</a></li>
+                        </ul>
+                        <button id="movie-review">Review movie</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="tv-shows">
+                        <h2 class="tv-head">TV shows we recommend</h2>
+                        <ul>
+                            <li><a href="https://en.wikipedia.org/wiki/Shuga_(TV_series)">Shuga</a></li>
+                            <li><a href="https://en.wikipedia.org/wiki/Rhythm_City_(TV_series)">Rhythm City</a></li>
+                        </ul><br><br><br><br><br>
+                        <button id="tv-review">Review tv show</button>
+                    </div><br><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="review1">
+                            <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="form">
+                                            <select id="movie-slct">
+                                                <option>Choose movie to review</option>
+                                            </select>
+                                            <input type="text" placeholder="Enter username" id="username"><br><br>
+                                            <textarea placeholder="What did you think about the movie ?" cols="65" rows="15" id="msg"></textarea>
+                                            <button id="submit">Submit</button>
+                                        </div>
+                                    </div>
+                            </div><br><br><br>
+                    </div>
+                </div>
+                    <div class="col-md-6">
+                        <div class="review2">
+                            <div class="form">
+                                <select id="tv-slct">
+                                    <option>Choose tv show to review</option>
+                                </select><br>
+                                <input type="text" placeholder="Enter username" id="user-name"><br><br>
+                                <textarea placeholder="What did you think of the tv show ?" cols="65" rows="15" id="message"></textarea>
+                                <button id="submit-tv">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul id="reviews">
+                                        
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul id="reviews-tv">
+                                        
+                    </ul>
+                </div>
+            </div><br><br><br><br><br><br><br><br>
+        </div>
+            <footer id="footer">
                     <div id="contact">
                         <p class="follow">Follow us on</p>
                         <div class="row">
@@ -103,5 +255,7 @@
             </footer>
         <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/new.js"></script>
     </body>
 </html>
