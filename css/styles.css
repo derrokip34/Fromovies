@@ -1,0 +1,106 @@
+body {
+    background-image: url('../images/blue.jpg');
+    position: relative;
+    min-height: 100vh;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+li.link {
+    float: left;
+}  
+li.link a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li.link a:hover {
+    background-color: #111;
+}
+h1 {
+    color: blue;
+    font-style: italic;
+    font-family: Lakki Reddy;
+}
+#footer {
+    text-align: center;
+    background-color: black;
+    color: goldenrod;
+    bottom: 0%;
+    position: absolute;
+}
+.tv-movies {
+    margin: 20px;
+    padding: 20px;
+    background-image:url('../images/back.jpg') ;
+    height: 350px;
+    text-align: center;
+}
+.social {
+    height: 40px;
+    width: 40px;
+}
+.images-tv, .imageHolder {
+    display: none;
+}
+#movie-review, li.tv-review{
+    cursor: pointer;
+    color: black;
+}
+#movie-review:hover, li.tv-review:hover{
+    color: blue;
+}
+.review1, .review2 {
+    display: none;
+}
+h2 {
+    color: cornsilk;
+}
+.fa {
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
+}
+.fa:hover {
+    color: darkblue;
+}
+.intro, .trailer {
+    color: white;
+}
+#trailers {
+    text-align: center;
+}
+.tv {
+    width: 500px;
+    height: 250px;
+}
+.movies, .tv-shows {
+    width: auto;
+    background-image: url('../images/back.jpg');
+}
+h2.movie-head, h2.tv-head {
+    color: black;
+}
+ul#reviews, ul#reviews-tv {
+    width: 50%;
+    height: auto;
+    color: black;
+    background-image: url('../images/back.jpg');
+}
+.home, .movies, .tv-shows, .review {
+    display: none;
+}
+li {
+    cursor: pointer;
+}
+li:hover {
+    color: blue;
+}
