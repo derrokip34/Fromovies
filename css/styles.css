@@ -115,3 +115,8 @@ li:hover {
 label {
     text-align: center;
 }
+.movie-detail {
+    display: none;
+    color: goldenrod;
+    text-align: center;
+}
