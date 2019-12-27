@@ -1,5 +1,5 @@
-var movieName = ["Black Panther", "Avengers Endgame", "Spider Man Into the Spider-Verse", "The Dark Knight", "Avengers Infinity War", "Captain America The Winter Soldier", "Captain America Civil war", "Sahara", "Hyenas", "Out of Africa", "African Cats", "Congo", "Nairobi Half-life"]
-var showName = ["Shuga", "Rhythm City", "Tinsel", "The Queen"]
+var movieName = []
+var showName = []
 
 $(document).ready(function() {
     $("#movie-slct").empty()

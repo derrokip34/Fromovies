@@ -10,6 +10,7 @@ body {
     overflow: hidden;
     background-color: #333;
     width: 100%;
+    color: goldenrod;
 }
 li.link {
     float: left;
@@ -107,4 +108,10 @@ li:hover {
 #welcome {
     color: wheat;
     font-size: 70px;
+}
+.home {
+    color: goldenrod;
+}
+label {
+    text-align: center;
 }
