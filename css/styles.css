@@ -104,3 +104,7 @@ li {
 li:hover {
     color: blue;
 }
+#welcome {
+    color: wheat;
+    font-size: 70px;
+}
