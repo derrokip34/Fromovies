@@ -118,5 +118,7 @@ label {
 .movie-detail {
     display: none;
     color: goldenrod;
-    text-align: center;
+}
+.movie-name {
+    color: goldenrod;
 }

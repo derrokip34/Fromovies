@@ -13,7 +13,7 @@ $(document).ready(function() {
         $(".review").hide()
         $("#welcome").hide()
         $("#fromovies").hide()
-        $(".movies").fadeIn()
+        $(".movies").slideDown(3000)
     })
     $("li#tv").click(function() {
         $(".home").hide()
@@ -21,7 +21,7 @@ $(document).ready(function() {
         $(".review").hide()
         $("#welcome").hide()
         $("#fromovies").hide()
-        $(".tv-shows").fadeIn()
+        $(".tv-shows").fadeIn(3000)
     })
     $("li#review").click(function() {
         $(".home").hide()
@@ -32,3 +32,8 @@ $(document).ready(function() {
         $(".review").fadeIn()
     })
   })
+$(document).ready(function() {
+    $("button#click").click(function(){
+        $(this).next("div.movie-detail").slideToggle()
+    })
+})
