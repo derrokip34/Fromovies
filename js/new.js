@@ -5,7 +5,7 @@ $(document).ready(function() {
         $(".review").hide()
         $("#welcome").hide()
         $("#fromovies").hide()
-        $(".home").fadeIn()
+        $(".home").fadeIn(3000)
     })
     $("li#movies").click(function() {
         $(".home").hide()
@@ -29,7 +29,7 @@ $(document).ready(function() {
         $(".tv-shows").hide()
         $("#welcome").hide()
         $("#fromovies").hide()
-        $(".review").fadeIn()
+        $(".review").slideDown(3000)
     })
   })
 $(document).ready(function() {
